@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    background: #ccc;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.start{
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    background: rgb(24, 23, 23);
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-top: 1px solid rgb(74, 99, 7);
+    border-left: 1px solid rgb(74, 99, 7);
+    box-shadow: 5px 5px 5px rgb(20, 161, 32);
+    display: none;
+}
+.score{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid  rgb(74, 99, 7);
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(20, 161, 32);
+    font-size: 22px;
+    font-weight: bolder;
+    color: aquamarine;
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    margin-right: -100px;
+    display: none;
+}
+.clertbox{
+    width: 100%;
+    height: 100%;
+    background: rgb(31, 30, 30);
+    opacity: 0.8;
+    display: none;
+}
+.clert{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-image: url('./img/win.jpeg');
+    background-size: 100% 100%;
+    
+}
+.block{
+    width: 49px;
+    height: 49px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: rgb(120, 185, 120);
+    float: left;
+}
+.lei{
+    background-image: url('./img/lei.jpg');
+    background-size: 100% 100%;
+}
+.notlei{
+    background: rgb(247, 244, 244);
+    text-align: center;
+    line-height: 49px;
+    font-size: 18px;
+}
+#clertbtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #ccc;
+    text-align: center;
+    font-size: 100%;
+}
+.note{
+    background-image: url('./img/note.jpg');
+    background-size: 100% 100%;
+}
